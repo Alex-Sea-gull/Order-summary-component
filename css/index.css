@@ -1,0 +1,131 @@
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background: url(../images/pattern-background-mobile.svg) no-repeat center/cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 900;
+}
+
+p {
+    font-weight: 500;
+}
+
+.screen-reader-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    clip-path: inset(50%);
+    overflow: hidden;
+}
+
+.wrapper-summary-card {
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    max-width: 350px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: white;
+}
+
+.image-hero {}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    max-width: 250px;
+}
+
+.title-description-text {
+    font-size: 24px;
+}
+
+.description-text {
+    line-height: 1.5;
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+}
+
+.price-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 20px;
+    padding: 20px 5px;
+}
+
+.icon-price-section {
+    margin-right: 25px;
+}
+
+.title-price-section {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.text-price-section {
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+}
+
+.link-chandge-price {
+    margin-left: auto;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.link-chandge-price:hover {
+    text-decoration: underline;
+}
+
+.button-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+    width: 300px;
+    font-size: 16px;
+}
+
+.input-button {
+    padding: 10px 15px;
+    border: none;
+    background-color: white;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+}
+
+.input-button:hover {
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}

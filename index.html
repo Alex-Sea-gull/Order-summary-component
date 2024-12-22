@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Order summary component" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Order summary card</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/index.css" />
+  </head>
+
+  <body>
+    <section class="wrapper-summary-card">
+      <h2 class="screen-reader-only">wrapper-summary-card</h2>
+      <!-- Hero section -->
+      <section class="image-hero">
+        <h2 class="screen-reader-only">Hero section</h2>
+        <img src="./images/illustration-hero.svg" alt="hero-illustration" />
+      </section>
+
+      <!-- Text section -->
+      <section class="description">
+        <h1 class="title-description-text">Order Summary</h1>
+        <p class="description-text">
+          You can now listen to millions of songs, audiobiooks, and podcasts on
+          any device anywhere you like!
+        </p>
+      </section>
+
+      <!-- Price section -->
+      <section class="price-section">
+        <h2 class="screen-reader-only">Price section</h2>
+        <img
+          class="icon-price-section"
+          src="./images/icon-music.svg"
+          alt="icon-music"
+        />
+        <div>
+          <h3 class="title-price-section">Annual Plan</h3>
+          <p class="text-price-section">$59.99/year</p>
+        </div>
+        <a class="link-chandge-price" href="$">Change</a>
+      </section>
+
+      <!-- Transaction Options -->
+      <section class="button-section">
+        <h2 class="screen-reader-only">Transaction Options</h2>
+        <button class="input-button" type="button">Proceed to Payment</button>
+        <button class="input-button" type="button">Cancel order</button>
+      </section>
+    </section>
+  </body>
+</html>
